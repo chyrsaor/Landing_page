@@ -93,3 +93,96 @@ a{
 .hero > .text > .hero-button a{
     color: #F9FAF8;
 }
+
+.info-sec{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 5rem;
+}
+
+.info-sec > h1{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.bits p{
+    text-align: center;
+}
+
+.bits{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 170px;
+    text-align: center;
+}
+
+.square{
+    width: 170px;
+    height: 170px;
+    border: #3882f6 4px solid;
+    border-radius: 5px;
+}
+
+.quote-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    background-color: #e5e7eb;
+    padding: 2rem 6rem;
+
+}
+
+.quote-sec > p{
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+.quote-sec > .author{
+    align-self: end;
+}
+
+.call-action{
+    align-self: center;
+    margin: 3rem 0;
+    padding: 2rem 5rem;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.call-action a{
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.call-action .action-btn{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border: #F9FAF8 2px solid;
+    border-radius: 4px;
+    padding: 0 23px;
+}
+
+.footer{
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
